@@ -3696,7 +3696,7 @@ h6 {
 
 .rating {
     line-height: 1;
-    color: gold;
+    color: orange;
     font-size: 24px;
 }
 
@@ -3715,5 +3715,31 @@ h6 {
 }
 
 .rating input:checked + label ~ label {
-    color: grey;
+    color: lightgray;
+}
+
+.rea {
+    background: #fff;
+    display: table;
+    width: 100%;
+    border: solid 2px #e5e5e5;
+    color: #333;
+    font-weight: 700;
+}
+
+
+.rep {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1em;
+    width: calc(100% - 3px);
+    border-left: #e5e5e5 solid 2px;
+}
+
+.conlink {
+        vertical-align: baseline;
+            box-sizing: border-box;
+                overflow-wrap: break-word;
+    word-break: normal;
+    display: block;
 }
